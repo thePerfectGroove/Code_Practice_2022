@@ -1,0 +1,17 @@
+Given numbers A,B find A^B.
+Input Size : 1 <= A <= 5 <= B <= 50
+Sample Testcase :
+INPUT
+3 4
+OUTPUT
+81
+
+
+a = int(input())
+b = int(input())
+#if (a>=1) and (a<=5):
+#    if(b>=5) and (b<=50):
+if(1<=a<=50):
+    if(1<=b<=50):
+        c = a**b
+        print(c)
