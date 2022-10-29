@@ -1,0 +1,14 @@
+//You will be provided with a number. Print the number of days in the month corresponding to that number.
+//Note: In case the input is February, print 28 days. If the Input is not in valid range print "Error".
+        a = int(input())
+        month = (1,3,5,7,8,10,12)
+        month2 = (4,6,9,11)
+        month3 = (2 , 2)
+        if(a in month):
+            print("31")
+        elif(a in month2):
+            print("30")
+        elif(a in month3):
+            print("29")
+        else:
+            print("error")
