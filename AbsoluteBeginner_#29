@@ -1,0 +1,21 @@
+Write a code to get 2 integers A and N. Print the integer A, N times in separate line.
+Input Description:
+First line contains an integer A. Second line contains an Integer N.
+
+          package javaapplication8;
+          import java.util.Scanner;
+          /**
+           *
+           * @author Gowtham
+           */
+          public class RevStr {
+              public static void main(String args[]){
+                  int a,b,i;
+                  Scanner sc = new Scanner(System.in);
+                  a = sc.nextInt();
+                  b = sc.nextInt();
+                for(i=0; i<=b;i++){
+                  System.out.println(a);
+              }
+          }
+          }
