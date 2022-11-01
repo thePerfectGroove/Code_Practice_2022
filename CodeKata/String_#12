@@ -1,0 +1,21 @@
+you are given a string made up of parenthesis only.Your task is to check whether parenthesis are balanced or not.If they are balanced print 1 else print 0
+
+Input Description:
+You are given a string ‘s’
+
+Output Description:
+Print 1 for balanced and 0 for imbalanced
+
+
+        s = input("")
+        c= 0
+        for i in s:
+            if i == "(": 
+                c =c+ 1
+            elif i == ")":
+                c=c- 1
+        #print(c)
+        if(c==0):
+            print(1)
+        else:
+            print(0)
