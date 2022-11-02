@@ -1,0 +1,10 @@
+Write a code to get an integer N and print the digits of the integer.
+
+Input Description:
+A single line contains an integer N.
+
+        N = int(input())
+        b = []
+        b = list(map(int, str(N)))
+        for i in range(len(b)):
+            print(b[i],end=' ')
