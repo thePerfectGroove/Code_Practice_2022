@@ -1,0 +1,15 @@
+You are given with Principle amount($), Interest Rate(%) and Time (years) in that order. Find Simple Interest.
+
+Print the output up to two decimal places (Round-off if necessary).
+
+(S.I. = P*T*R/100)
+
+Input Description:
+Three values are given to you as the input. these values correspond to Principle amount, Interest Rate and Time in that particular order.
+
+        P_A, I_R, T = list(map(float,input().split()))
+
+        #(S.I. = P*T*R/100)
+
+        S_I = (P_A*T*I_R)/100
+        print(S_I)
