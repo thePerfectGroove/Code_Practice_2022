@@ -1,0 +1,10 @@
+Input Description:
+You are given ‘n’ number of elements. Next line contains n space separated numbers.
+
+Output Description:
+Print the minimum element
+
+      b = int(input())
+      for i in range(b):
+          a = list(input().split())
+          print(min(a))
