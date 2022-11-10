@@ -5,10 +5,11 @@ INPUT
 OUTPUT
 odd
 
-N = int(input())
-M = int(input())
+
+N,M = list(map(int,input().split()))
 C = N+M
 if (C%2==0):
     print("even")
 else:
     print("odd")
+
