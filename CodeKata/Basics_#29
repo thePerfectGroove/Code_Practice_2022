@@ -1,0 +1,10 @@
+string = input()
+# reversing words in a given string
+s = string.split()[::-1]
+print(*s)
+
+
+    string = input()
+    # reversing words in a given string
+    s = string.split()[::-1]
+    print(*s)
