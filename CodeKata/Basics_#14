@@ -1,0 +1,21 @@
+Given 2 numbers N and K followed by elements of N .Print 'yes' if K exists else print 'no'.
+Sample Testcase :
+INPUT
+4 2
+1 2 3 3
+OUTPUT
+yes
+
+
+      N,K = list(map(int,input().split()))
+      B = []
+      arr=list(map(int,input().split()))
+      for i in range(N):
+          B.append(arr)
+      i=0
+      if K in B[i]:
+          i+=1
+          print("yes")
+      else:
+          print("no")
+  
