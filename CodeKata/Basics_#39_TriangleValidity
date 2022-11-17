@@ -1,0 +1,14 @@
+the sides of a triangle otherwise print 'no'.
+Input Size : A,B,C <= 100000
+Sample Testcase :
+INPUT
+3 4 5
+OUTPUT
+yes
+
+a,b,c=list(map(float,input().split()))
+
+if a+b>c and b+c>a and c+a>b:
+    print("yes")
+else:
+    print("no")
