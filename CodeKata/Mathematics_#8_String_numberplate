@@ -1,0 +1,18 @@
+In XYZ country there is rule that car’s engine no. depends upon car’ number plate. Engine no is sum of all the integers present on car’s Number plate.The issuing authority has hired you in order to provide engine no. to the cars.Your task is to develop an algorithm which takes input as in form of string(Number plate) and gives back
+
+Engine number.
+
+Input Description:
+You are given a string ’s’
+
+Output Description:
+Print the engine number
+
+    str1= input()
+    sum = 0
+    for x in str1:
+        if x.isdigit() == True:
+            z = int(x)
+            sum = sum + z
+
+    print(sum)
