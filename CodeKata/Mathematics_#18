@@ -1,0 +1,26 @@
+You are given a large number made of only 0’s and 1’s.Your task is to find the max no of consecutive 1’s. If there are no 1’s print -1
+
+Input Description:
+A large number ‘n’
+
+Output Description:
+Print the max no of consecutive 1 in the number
+
+Sample Input :
+101011111
+Sample Output :
+5
+
+      a = input()
+      n = len(a)
+
+      count = 0
+      result = 0
+      for i in range(0, n):
+          if a[i] == '0':
+              count = 0
+          else:
+              count += 1
+              result = max(result, count)
+
+      print(result) if count > 0 else print(-1)
