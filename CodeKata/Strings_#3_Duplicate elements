@@ -1,0 +1,23 @@
+Rahul is given a task to manipulate a string, He hired you as a developer your task is to delete all the repeating characters and print the result left.
+
+Input Description:
+You are given a string ‘s’
+
+Output Description:
+Print the remaining string
+
+Sample Input :
+mississipie
+Sample Output :
+mpe
+
+      Str = input()
+      for i in Str:
+          count = 0
+          for j in Str:
+              if i == j:
+                  count+=1
+              if count > 1:
+                  break
+          if count == 1:
+              print(i, end = '')
