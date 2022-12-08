@@ -1,0 +1,19 @@
+Given a string S, print 'yes' if it has a vowel in it else print 'no'.
+Sample Testcase :
+INPUT
+codekata
+OUTPUT
+yes
+
+      n=str(input())
+      vowels=['A','E','I','O','U','a','e','i','o','u']
+      count = 0
+      for i in n:
+          if i in vowels:
+              count+=1
+          else:
+              pass
+      if(count>0):
+          print("yes")
+      else:
+          print("no")
