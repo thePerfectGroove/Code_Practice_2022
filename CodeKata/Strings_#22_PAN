@@ -1,0 +1,37 @@
+Indian PAN card issuing authority have found some fake PAN cards. They have hired you so that you can validate PAN card for them. Your task is to develop a suitable algorithm which could check if pan is valid or not
+
+1)Pan must have uppercase letters only.
+
+2)It must be of 10 character only
+
+3)From index 1 to 5 all must be letters(A-Z),last index must be letter
+
+4)Rest all must be integer Starting from 1
+
+Input Description:
+You are given a input string which indicates the PAN number
+
+Output Description:
+Print 'pan' if it is valid PAN number, else print 'not pan'
+
+Sample Input :
+HXTPS2142R
+
+
+      n=input()
+      s=False
+
+      if len(n)==10 and n.upper():
+          if n[9] not in range(0,9):
+              s=True
+          if n[0:5].isalnum():
+              s=False
+          if '0' in n:
+              s=False
+          if n[5:9].isnumeric():
+              s=True
+
+      if s:
+          print("pan")
+      else:
+          print("not pan")
