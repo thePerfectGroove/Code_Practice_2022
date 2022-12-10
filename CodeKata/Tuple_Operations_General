@@ -1,0 +1,30 @@
+tuple1 = ("apple", "orange", "grape", 1, 2, 3.4, True)
+print(tuple1)
+tuple1 = ("apple", "orange","orange", "grape", 1, 2, 3.4, True)
+print(tuple1)
+print(len(tuple1))
+tuple1 = ("apple",) #when only one item is present, type is considered as a str. To consider as a tuple, add a comma after the element in the variable.
+print(type(tuple1))
+tuple1 = ("apple", "orange","orange", "grape", 1, 2, 3.4, True)
+print(len(tuple1))
+print(tuple1[2])
+print(tuple1[:2])
+print(tuple1[2:])
+
+
+#tuple.append("pomegranate") # cant change tuple
+
+#to change value in tuple - change tuple to list
+
+li = list(tuple1)
+li.append("pomegranate")
+print(li)
+
+
+
+tuple1 = ("apple", "orange","orange", "grape", 1, 2, 3.4, True)
+li1 = list(tuple1)
+li1[2] = "pomegranate"
+x = tuple(li1)
+print(x)
+
