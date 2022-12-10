@@ -1,0 +1,8 @@
+list1 = ["car", "bike", "bus", "scooter"]
+def loop(x):
+    print(x*3)
+
+def map_simple(crazy, list1):
+    for items in list1:
+        crazy(items)
+map_simple(loop, list1)
