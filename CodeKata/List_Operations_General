@@ -1,0 +1,22 @@
+list1 = ["car", "bike", "apple", 1 , 2, 3.4, True]
+# List with values of different types
+# square brackets create list
+# lists are changeable, ordered, allow duplicates
+print(list1)                # print list
+print(len(list1))           #length of list
+print(type(list1))          # type of the value
+print(type(list1[4]))       # type of element in position 4
+print(list1[3])             # access items in list
+print(list1[2:6])           #range in a list
+print(list1[:6])           #print till element in position 5
+print(list1[2:])           #print from element in position 2
+print(list1[-1])           #last element of a list
+print(list1[::-1])           #reverse a list
+list1[1:3]=["box", "pen", "orange"]     # change items in list
+print(list1)
+
+list1.insert(2, "jeep") # inserted element in 2nd position (insert to certain position)
+print(list1)
+
+list1.append("grape") #add to the last
+print(list1)
