@@ -1,0 +1,35 @@
+#unordered, changeable and do not allow duplicate values
+
+dictt = {"a":2, "b":2, "c":"apple"}
+print(dictt)
+dictt = {"a":2, "b":2, "c":"apple", "b":4} # Changes the value of a key. 
+print(dictt)
+dictt = {"a":2, "b":2, "c":"apple", "num":[1,2,3,4]}
+print(dictt)
+print(len(dictt))           #length of the dic
+print(type(dictt))          #type of the variable
+print(dictt["b"])           #access an element
+
+#or
+x = dictt["b"]
+print(x)
+
+#or
+
+x = dictt.get("b")
+print(x)
+
+dictt["b"] = "animal" #change value of a key in dictt
+print(dictt)
+
+#or
+
+dictt.update({"b":"wayne"}) #change value of a key in dictt
+print(dictt)
+
+#remove values from dict
+
+#pop method
+
+dictt.pop("a")
+print(dictt)
