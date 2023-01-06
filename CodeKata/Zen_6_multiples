@@ -1,0 +1,21 @@
+Given a number m and k separated by a space print n numbers which multiple of m
+
+Input Description:
+number m and k separated by a space 0<n<1000 0<m<1000
+
+Output Description:
+print n numbers which multiple of m
+
+Sample Input :
+5 4
+Sample Output :
+4 8 12 16 20
+
+m,n = list(map(int,input().split()))
+b = []
+while 0<m<1000 and 0<n<1000:
+    for i in range(1,m+1):
+        a = n*i
+        b.append(a)
+    print(*b)
+    break
