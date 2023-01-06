@@ -1,0 +1,21 @@
+Given a number n followed by n numbers add the odd number in an array
+
+Input Description:
+0<n<100 Given a number n Followed by n number in next line
+
+Output Description:
+Print the sum of odd numbers in an array
+
+Sample Input :
+6
+5 7 4 4 6 8
+Sample Output :
+12
+
+      n = int(input())
+      a = list(map(int,input().split()))
+      c = []
+      for i in range(n):
+          if a[i]%2!=0:
+              c.append(a[i])
+      print(sum(c))
