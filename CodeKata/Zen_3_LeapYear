@@ -1,0 +1,18 @@
+Given a year, find whether leap year or not?
+
+Input Description:
+Given a 4 digit number
+
+Output Description:
+Print leap year or not a leap year
+
+Sample Input :
+1996
+Sample Output :
+leap year
+
+      n = int(input())
+      if n % 400 == 0 and n % 100 == 0 or n % 4 == 0:
+          print("leap year")
+      else:
+          print("not a leap year")
