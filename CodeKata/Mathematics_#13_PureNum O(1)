@@ -21,3 +21,10 @@ not
           print("yes")
       else:
           print("not")
+
+
+OR
+
+N = input()
+num = sum(list(map(int,N)))
+print("yes") if num %3 ==0 else print("not")
